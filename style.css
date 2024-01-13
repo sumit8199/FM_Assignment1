@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;0,800;1,600;1,800&family=Ubuntu:ital,wght@1,300&display=swap');
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+
+    --Font-size: 16px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+}
+.card{
+    display: static;
+    height: 30rem;
+    width: 22rem;
+    background-color: var(--White);
+    border-radius: 20px;
+    border: 3px solid var(--Black) ;
+    box-shadow: var(--Black) 7px 10px;
+    font-family: 'Figtree', sans-serif;
+}
+.card svg{
+    height: 90%;
+    width: 90%;
+    margin: 18px;
+    border-radius: 20px;
+}
+.content-div{
+    height: 15rem;
+    width: 20rem;
+    margin-left: 15px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    width: 4rem;
+    height: 1rem;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 11px;
+    color: var(--Black);
+}
+.content-div h4{
+    color: var(--Grey);
+    margin-bottom: 15px;
+}
+.content-div h3{
+    color: var(--Black);
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.content-div p{
+    color: var(--Grey);
+    line-height: 1.4;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile img{
+    height: 3rem;
+    margin-top: 8px;
+}
+.profile p{
+    font-weight: 800;
+    color: var(--Black);
+    padding-left: 15px;
+}
